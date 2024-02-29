@@ -1,0 +1,15 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
