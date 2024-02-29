@@ -8,8 +8,17 @@
     flex-direction: column;
 }
 
+#landing > * {
+    margin: 0 12vw;
+}
+
+.header .logo{
+    margin-right: auto;
+}
+
 .header ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    gap: 1em;
 }
