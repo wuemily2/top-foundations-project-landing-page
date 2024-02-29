@@ -4,41 +4,96 @@
         <meta charset="UTF-8">
         <title>Landing Page</title>
         <link rel="stylesheet" href="style.css">
-      </head>
+    </head>
 
-      <body> <!--Need to put on all child elements-->
-        <div id="landing">
-            <div class="header">
+    <body> <!--Need to put on all child elements-->
+        <div id="landing" class="column">
+
+            <div class="header row">
                 <div class="logo">Header Logo</div>
                 <nav>
-                    <ul>
+                    <ul class="row">
                         <li><a href="https://youtu.be/dQw4w9WgXcQ?si=24lEQlVAS7VNcOf1">Rick Roll</a></li>
                         <li><a href="">something 1</a></li>
                         <li><a href="">something 2</a></li>
                     </ul>
                 </nav>
             </div>
+
             <div class="hero"> <!--Need to put padding here-->
-                
-            </div>
-            <div class="v-info">
-
-                <div class="h-gallery">
-
+                <div class="row">
+                    <div class="column">
+                        <h1>This website is awesome</h1>
+                        <p>This website has some subtext that goes here under the main title. 
+                            It's a smaller font and the color is lower contrast</p>
+                        <button>Sign up</button>
+                    </div>
+                    <div class="image-placeholder">this is a placeholder for an image</div>
                 </div>
             </div>
+            
+            <div class="info column">
+                <h2>Some random information</h2>
+                <div class="row gallery">
+                    <div>
+                        <div class="square-image">
+                            todo: place image
+                        </div>
+                        <p>
+                            this is some subtext under an illustration or image
+                        </p>
+                    </div>
+                    <div>
+                        <div class="square-image">
+                            todo: place image
+                        </div>
+                        <p>
+                            this is some subtext under an illustration or image
+                        </p>
+                    </div>
+                    <div>
+                        <div class="square-image">
+                            todo: place image
+                        </div>
+                        <p>
+                            this is some subtext under an illustration or image
+                        </p>
+                    </div>
+                    <div>
+                        <div class="square-image">
+                            todo: place image
+                        </div>
+                        <p>
+                            this is some subtext under an illustration or image
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
             <div class="quote">
-
+                <p>The possibility is always there - with your will. 
+                    No matter how small, no matter how many zeros 
+                    beyond the radix point it lies -- it always exists. 
+                    The only time the possibility isn't there is 
+                    when you've given up on grabbing hold of the future you desire. 
+                    As long as you don't give up 
+                    and keep making choices towards the future you want to see, 
+                    the possibility won't disappear, 
+                    even if it's far beyond the radix point.</p>
+                <div class="quotee">-Shu Starling <span>Infinite Dendrogram</span></div>
             </div>
-            <div class="call-to-action">
-                <div>
-                    
+            
+            <div id="call-to-action" class="row">
+                <div class="column">
+                    <div><strong>Call to action! It's time!</strong></div>
+                    <div>Sign up for our product by clicking</div>
                 </div>
+                <button>Sign up</button>
             </div>
+
             <footer>
                 <div>Copyright &copy; The Odin Project 2021</div>
             </footer>
         </div>
-        
-      </body>
+    </body>
 </html>
