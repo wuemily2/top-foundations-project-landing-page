@@ -40,7 +40,6 @@ h1 {
 
 h2 {
     font-size: 36px;
-    font-family: sans-serif;
 }
 
 .image-placeholder {
@@ -86,11 +85,11 @@ body {
 /* Header */
 
 header{
-    color: white;
     flex: 1 2vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 
 header .logo{
@@ -151,28 +150,20 @@ header a{
     flex: 8 auto;
 }
 
-.square-image{
-    aspect-ratio: 1 / 1;
-    width: 95%;
-    border: 3px solid #3882F6;
-    border-radius: 2vw;
-    margin: auto;
-}
-
 .info {
     justify-content: flex-start;
     padding: 0 8vw;
     padding-bottom: 12vh;
 }
 
-#middle-one .center{
-    flex: 1;
-}
-
 .center {
     display: grid;
     align-items: center;
     text-align: center;
+}
+
+.info .center{
+    flex: 1;
 }
 
 .info .gallery {
@@ -189,6 +180,14 @@ header a{
     text-align: center;
 }
 
+.square-image{
+    aspect-ratio: 1 / 1;
+    width: 95%;
+    border: 3px solid #3882F6;
+    border-radius: 2vw;
+    margin: auto;
+}
+
 /* Quote */
 
 #middle-two{
@@ -201,7 +200,6 @@ header a{
 
 .quote {
     color: #1F2937;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .quote p {
