@@ -171,8 +171,12 @@ header a{
 }
 
 .gallery {
-    justify-content: space-between;
     gap: 2vw;
+    flex-wrap: wrap;
+}
+
+.gallery > div {
+    flex: 1;
 }
 
 .gallery p {
@@ -181,10 +185,12 @@ header a{
 }
 
 .square-image{
+    display: block;
     aspect-ratio: 1 / 1;
-    width: 95%;
+    min-width: 100px;
+    width: 12vw;
     border: 3px solid #3882F6;
-    border-radius: 2vw;
+    border-radius: 10px;
     margin: auto;
 }
 
